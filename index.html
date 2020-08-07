@@ -233,9 +233,37 @@
                 <div class="form-group">
                   <label for="formGroupExampleInput2">Dejanos tu E-MAIL!</label>
                   <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Introduzca su mail">
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop">
+                    APLICA!
+                   </button>
+         
+                   <!-- Modal -->
+                   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                           <h5 class="modal-title" id="staticBackdropLabel">Muchas gracias!</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                           </button>
+                         </div>
+                         <div class="modal-body">
+                           ...
+                         </div>
+                         <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Continua entrenando!</button>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
                 </div>
             </form>
         </div>
+
+        <!--MODAL-->
+        <!-- Button trigger modal -->
+       
 
         <!---FOOTER-->
         <footer>
@@ -261,6 +289,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
